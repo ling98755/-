@@ -1,0 +1,160 @@
+div.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #fffdfd3d;
+  width: 200px;
+  height: 895px;
+  border-right: none;
+  margin-right: none;
+  padding-right: none;
+}
+
+div.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 20px;
+  width: 200px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+div.tab button:hover {
+  background-color: #dddddd;
+}
+
+div.tab button:active {
+  background-color: #ccc;
+}
+div.tab .active {
+  background-color: #dddddd;
+}
+.tablinks {
+  margin-left: 130px;
+  float: left;
+  padding: 3px 12px;
+  border: 1px solid #ccc;
+  width: 60%;
+  height: 895px;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfcf3d;
+  backdrop-filter: blur;
+}
+
+.o1 {
+  display: inline;
+  width: 200px;
+}
+.o2 {
+  font-size: 16px;
+  color: #21b0d4;
+  text-decoration: none;
+}
+.l1 {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: #f1eeee7e;
+  backdrop-filter: blur;
+  left: 3.5%;
+  border-radius: 25px;
+  top: 100px;
+  transition: all 1s;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.l1:hover {
+  height: 340px;
+  width: 70px;
+}
+.o3 {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+
+.o4 {
+  flex: 1;
+}
+
+.o5 {
+  margin-top: 100px;
+}
+
+.mapbutton {
+  position: absolute;
+}
+
+body {
+  background: linear-gradient(
+    rgba(173, 215, 255, 0.482),
+    rgba(177, 241, 191, 0.605)
+  );
+  width: 100%;
+  display: flex;
+}
+
+.o6 {
+  background-size: 100% 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.o7 {
+  width: 75%;
+}
+.o8 {
+  width: 100%;
+  height: 40px;
+  background: #b3e0fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 0 rgb(119, 118, 118);
+}
+.o8:hover {
+  box-shadow: 0 0 rgb(119, 118, 118);
+  background: #8ed5ff;
+}
+.o8:active {
+  background: #76b2fd;
+  box-shadow: 0 0 rgb(119, 118, 118);
+}
+.o9 {
+  width: 100%;
+  height: 500px;
+  backdrop-filter: blur;
+  background-color: #c3b2ff40;
+  transition: all 1s;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.o10 {
+  background: #21b0d4;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 40px;
+}
+.o11 {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+.o12 {
+}
+.o13 {
+}
