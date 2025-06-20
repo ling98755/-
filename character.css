@@ -44,17 +44,27 @@ div.tab .active {
   margin: 0;
   padding: 0;
   background-color: #cfcfcf3d;
-  backdrop-filter: blur;
+  backdrop-filter: blur(4px);
 }
 
 .o1 {
   display: inline;
   width: 200px;
+  position: relative;
+  left: 30%;
 }
 .o2 {
   font-size: 16px;
   color: #21b0d4;
   text-decoration: none;
+}
+body {
+  background: linear-gradient(
+    rgba(173, 215, 255, 0.482),
+    rgba(177, 241, 191, 0.605)
+  );
+  width: 100%;
+  display: flex;
 }
 .l1 {
   position: fixed;
@@ -65,7 +75,7 @@ div.tab .active {
   left: 3.5%;
   border-radius: 25px;
   top: 100px;
-  transition: all 1s;
+  transition: all 0.55s;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -73,15 +83,15 @@ div.tab .active {
 .l1:hover {
   height: 340px;
   width: 70px;
+  transform: translateX(-10px);
+}
+.o4 {
+  flex: 1;
 }
 .o3 {
   flex: 8;
   display: flex;
   flex-direction: column;
-}
-
-.o4 {
-  flex: 1;
 }
 
 .o5 {
@@ -92,19 +102,10 @@ div.tab .active {
   position: absolute;
 }
 
-body {
-  background: linear-gradient(
-    rgba(173, 215, 255, 0.482),
-    rgba(177, 241, 191, 0.605)
-  );
-  width: 100%;
-  display: flex;
-}
-
 .o6 {
   background-size: 100% 100%;
   position: relative;
-  left: 0;
+  left: 1%;
   top: 0;
 }
 .o7 {
@@ -133,7 +134,7 @@ body {
 .o9 {
   width: 100%;
   height: 500px;
-  backdrop-filter: blur;
+  backdrop-filter: blur(4px);
   background-color: #c3b2ff40;
   transition: all 1s;
   position: relative;
@@ -153,8 +154,145 @@ body {
   margin-top: 15px;
   margin-bottom: 3px;
 }
-
+.l3 {
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  background-color: #0000004f;
+  backdrop-filter: blur(3px);
+  display: none;
+}
+.l2 {
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  width: 40%;
+  height: 40%;
+  background-color: #dddfdf;
+  border-radius: 25px;
+  overflow: hidden;
+  display: none;
+}
 .o12 {
+  width: 20%;
+  height: 22px;
+  margin-bottom: 10px;
+  margin-left: 31.6%;
+  overflow: hidden;
+  transition: all 0.5s;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 0;
+  top: 0;
+  align-items: center;
+  border-radius: 6px;
+  background: linear-gradient(
+    rgba(173, 82, 170, 0.482),
+    rgba(219, 152, 229, 0.26)
+  );
+}
+.o12 .o19 {
+  display: none;
 }
 .o13 {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  overflow-y: auto;
+  width: 90%;
+  height: 90%;
+  display: none;
+}
+.o14 {
+  font-size: 18px;
+}
+.o15 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.o16 {
+  margin: 0;
+  font-size: 16px;
+}
+.o12:hover {
+  width: 40%;
+  transform: translateX(-25%);
+  height: 350px;
+}
+.o12:active {
+  box-shadow: 0 10px 10px #424040b9;
+  background: linear-gradient(
+    rgba(173, 82, 170, 0.511),
+    rgba(219, 152, 229, 0.397)
+  );
+}
+.o12:hover .o16 {
+  font-size: 22px;
+}
+.o20 .o16 {
+  font-size: 22px;
+}
+.o17 {
+  width: 80%;
+  height: 80%;
+  background-color: #00000000;
+  border: 0;
+  font-size: 16px;
+  text-indent: 32px;
+  overflow-y: auto;
+}
+
+.o18 {
+  width: 100%;
+  pointer-events: none;
+}
+.o20 {
+  width: 40%;
+  height: 350px;
+  margin-bottom: 10px;
+  margin-left: 31.6%;
+  transition: all 0.5s;
+  padding: 0;
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  transform: translateX(-25%);
+  background: linear-gradient(
+    rgba(173, 82, 170, 0.482),
+    rgba(219, 152, 229, 0.26)
+  );
+}
+.o19 {
+  width: 100px;
+  height: 350px;
+  left: 100%;
+  border-radius: 6px;
+  position: absolute;
+  background: linear-gradient(
+    rgba(190, 78, 138, 0.21),
+    rgba(152, 35, 170, 0.183)
+  );
+}
+.o20 .o19 {
+  display: inline;
+}
+.o21 {
+  width: 100px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  background-color: #00000000;
+  font-size: 18px;
+}
+.l5 {
+  position: absolute;
 }
